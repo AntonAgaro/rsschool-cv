@@ -15,3 +15,27 @@ After completed web-development courses I had developed landing by layout with s
 It can be seen by link https://github.com/AntonAgaro/layout1. 
 ## My skills
 I use Visual Studio Code for writing code. I can use html, CSS, JavaScript, Sass, Scss for develop web-sites. 
+## My code example
+For example, below is my code which allow modal window append when button clicked:  
+``` 
+const btn = document.querySelectorAll('[data-modal]'),
+      modalWindow = document.querySelector('.overlay'),
+      close = document.querySelector('.modal__close');
+function openModal() {
+    modalWindow.classList.add('active');
+            } 
+function closeModal() {
+    modalWindow.classList.remove('active');
+            }
+ btn.forEach(btn => {
+    btn.addEventListener('click', openModal);
+            });
+ close.addEventListener('click', closeModal);
+ modalWindow.addEventListener('click', closeModal);
+```  
+## Work Experience
+https://github.com/AntonAgaro/layout1  
+## Education
+Courses: Web-developer courses 2021 33.5 total hours by Udemy, certificate from 18 February 2021. 
+## English level
+My English level is A2. 
