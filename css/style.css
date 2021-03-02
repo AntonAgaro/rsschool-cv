@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto
+}
+
+.divider {
+    height: 5px;
+    background-color: navy
+}
+
+.name {
+    padding: 50px 0 50px 0
+}
+
+.name-wrapper {
+    margin: 20px 47px 0 47px;
+    display: flex;
+    justify-content: space-between
+}
+
+.name-text {
+    text-align: left;
+    margin-right: 50px
+}
+
+.name-text-title {
+    margin-top: 20px;
+    color: navy;
+    font-size: 36px
+}
+
+.name-text-subtitle {
+    margin-top: 20px;
+    text-align: left;
+    color: navy;
+    font-size: 26px
+}
+
+.name-text-table {
+    margin: 20px auto;
+    width: 400px;
+    border-spacing: 20px;
+    text-align: left;
+    font-size: 20px
+}
+
+.name-text-table td {
+    padding: 10px 10px 10px 0;
+    font-size: 20px
+}
+
+.name-foto {
+    width: 450px
+}
+
+.name-foto img {
+    width: 100%
+}
+
+.about {
+    padding: 20px 0 20px 0
+}
+
+.about-title {
+    margin-left: 87px;
+    text-align: justify;
+    color: navy;
+    font-size: 26px
+}
+
+.about-text {
+    margin: 20px 47px 0 47px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 28px
+}
+
+.about-text p {
+    text-indent: 40px
+}
+
+.skills {
+    padding: 20px 0 20px 0
+}
+
+.skills-title {
+    margin-left: 87px;
+    text-align: justify;
+    color: navy;
+    font-size: 26px
+}
+
+.skills-text {
+    margin: 20px 47px 0 47px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 28px
+}
+
+.skills-text p {
+    text-indent: 40px
+}
+
+.code {
+    padding: 20px 0 20px 0
+}
+
+.code-title {
+    margin-left: 87px;
+    color: navy;
+    font-size: 26px
+}
+
+.code-text {
+    margin: 20px 47px 0 47px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 28px
+}
+
+.code-text p {
+    text-indent: 40px
+}
+
+.code-mycode {
+    text-indent: 0;
+    margin: 10px 0 0 40px
+}
+
+.exp {
+    padding: 20px 0 20px 0
+}
+
+.exp-title {
+    margin-left: 87px;
+    color: navy;
+    font-size: 26px
+}
+
+.exp p {
+    margin: 20px 47px 0 47px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 28px;
+    text-indent: 40px
+}
+
+.education {
+    padding: 20px 0 20px 0
+}
+
+.education-title {
+    margin-left: 87px;
+    color: navy;
+    font-size: 26px
+}
+
+.education p {
+    margin: 20px 47px 0 47px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 28px;
+    text-indent: 40px
+}
+
+.english {
+    padding: 20px 0 20px 0
+}
+
+.english-title {
+    margin-left: 87px;
+    color: navy;
+    font-size: 26px
+}
+
+.english p {
+    margin: 20px 47px 0 47px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 28px;
+    text-indent: 40px
+}
+

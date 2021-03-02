@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <section class="name">
+            <div class="name-wrapper">
+                <div class="name-text">
+                    <h1 class="name-text-title">Anton Agaronov</h1>
+                    <h3 class="name-text-subtitle">My contacts:</h3>
+                    <table class="name-text-table">
+                        <tr>
+                            <td>Date of birth:</td>
+                            <td>30.05.1993</td>
+                        </tr>
+                        <tr>
+                            <td>Adress:</td>
+                            <td>410053, Russian Federation, Saratov, 5th Saratov passage, 1.</td>
+                        </tr>
+                        <tr>
+                            <td>Phone:</td>
+                            <td>+7 906 317 35 17</td>
+                        </tr>
+                        <tr>
+                            <td>E-mail:</td>
+                            <td>agaronov.anton@yandex.ru.</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="name-foto"><img src="img/foto.jpeg" alt="my foto"></div>
+            </div>
+        </section>
+        <div class="divider"></div>
+        <section class="about">
+            <h3 class="about-title">About me:</h3>
+            <div class="about-text">
+                <p> I graduated from Saratov State Academy of Law in 2015.
+                I worked lawyer 5 years. Last 3 years I was engaged private legal practice.</p>
+
+                <p>In 2020 I decided to change profession to Frontend JavaScript developer, because I really interest how computers and Internet work, web-sites and application development. I want to develop web-sites and application myself.
+                Besides, I very glad that profession developer gives me opportunity to use English language in my work and I can learn this language very well.</p> 
+                <p>I started self-study, had learned html and CSS. Then I took web-development courses on Udemy. Then I started to study JavaScript by Udemy’s courses and continue study to this day.</p>  
+                <p>When I worked lawyer, I had developed my own web-site for advertisement. I used WordPress for it. After completed web-development courses I had developed landing by layout with some interactive elements like a modal window, slider, page up button, nav-panel.
+                <p>It can be seen by <a href="https://github.com/AntonAgaro/layout1">link.</a></p>
+            </div>
+        </section>
+        <div class="divider"></div>
+        <section class="skills">
+            <h3 class="skills-title">My skills:</h3>
+            <div class="skills-text">
+                <p>I use Visual Studio Code for writing code. I can use html, CSS, JavaScript, Sass, Scss for develop web-sites.</p>
+            </div>
+        </section>
+        <div class="divider"></div>
+        <section class="code">
+            <h3 class="code-title">My code example</h3>
+            <div class="code-text">
+                <p>For example, below is my code which allow modal window append when button clicked:</p>
+                <div class="code-mycode">
+                    <code>
+                        const btn = document.querySelectorAll('[data-modal]'),<br>
+                        &nbsp;&nbsp;modalWindow = document.querySelector('.overlay'),<br>
+                        &nbsp;&nbsp;close = document.querySelector('.modal__close');<br>
+                        function openModal() {<br>
+                            &nbsp;&nbsp;modalWindow.classList.add('active');<br>
+                            &nbsp;&nbsp;} <br>
+                        function closeModal() {<br>
+                            &nbsp;&nbsp;modalWindow.classList.remove('active');
+                            &nbsp;&nbsp;} <br>
+                        btn.forEach(btn => { <br>
+                        btn.addEventListener('click', openModal);<br>
+                        &nbsp;&nbsp;});<br>
+                        close.addEventListener('click', closeModal);<br>
+                        modalWindow.addEventListener('click', closeModal);<br>
+                        </code>
+                </div>
+            </div>
+        </section>
+        <div class="divider"></div>
+        <section class="exp">
+            <h3 class="exp-title">Work Experience</h3>
+            <p>You can see examples of my works in my github account: <a href="https://github.com/AntonAgaro/layout1">link.</a></p>
+        </section>
+        <div class="divider"></div>
+        <div class="education">
+            <h3 class="education-title">Education</h3>
+            <p>Courses: Web-developer courses 2021 33.5 total hours by Udemy, certificate from 18 February 2021.</p>
+        </div>
+        <div class="divider"></div>
+        <section class="english">
+            <h3 class="english-title">English level</h3>
+            <p>My English level is A2.</p>
+
+        </section>
+    </div>
+</body>
+
+</html>
+

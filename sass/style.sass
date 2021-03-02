@@ -1,0 +1,133 @@
+$main-color: black
+$title-color: #000080
+@mixin divider 
+    height: 5px
+    background-color: $title-color            
+ 
+*
+    box-sizing: border-box
+    margin: 0
+    padding: 0
+
+.container
+    width: 1200px
+    margin: 0 auto
+
+.divider
+    @include divider
+                
+.name
+    padding: 50px 0 50px 0
+    &-wrapper
+        margin: 20px 47px 0 47px
+        display: flex
+        justify-content: space-between
+    &-text
+        text-align: left 
+        margin-right: 50px
+        &-title
+            margin-top: 20px
+            color: $title-color
+            font-size: 36px   
+        &-subtitle
+            margin-top: 20px
+            text-align: left
+            color: $title-color
+            font-size: 26px
+        &-table
+            margin: 20px auto
+            width: 400px
+            border-spacing: 20px
+            text-align: left   
+            font-size: 20px 
+            td 
+                padding: 10px 10px 10px 0
+                font-size: 20px                      
+    &-foto
+        width: 450px
+        img
+            width: 100% 
+
+.about
+    padding: 20px 0 20px 0
+    &-title
+        margin-left: 87px
+        text-align: justify
+        color: $title-color
+        font-size: 26px
+    &-text
+        margin: 20px 47px 0 47px
+        text-align: left
+        font-size: 20px
+        line-height: 28px
+        p
+            text-indent: 40px
+.skills 
+    padding: 20px 0 20px 0
+    &-title
+        margin-left: 87px
+        text-align: justify
+        color: $title-color
+        font-size: 26px
+    &-text
+        margin: 20px 47px 0 47px
+        text-align: left
+        font-size: 20px
+        line-height: 28px
+        p
+            text-indent: 40px
+.code
+    padding: 20px 0 20px 0
+    &-title
+        margin-left: 87px
+        color: $title-color
+        font-size: 26px
+    &-text
+        margin: 20px 47px 0 47px
+        text-align: left
+        font-size: 20px
+        line-height: 28px
+        p
+            text-indent: 40px  
+    &-mycode
+        text-indent: 0
+        margin: 10px 0 0 40px
+.exp
+    padding: 20px 0 20px 0
+    &-title
+        margin-left: 87px
+        color: $title-color
+        font-size: 26px
+    p 
+        margin: 20px 47px 0 47px
+        text-align: left
+        font-size: 20px
+        line-height: 28px
+        text-indent: 40px  
+.education
+        padding: 20px 0 20px 0
+        &-title
+            margin-left: 87px
+            color: $title-color
+            font-size: 26px
+        p 
+            margin: 20px 47px 0 47px
+            text-align: left
+            font-size: 20px
+            line-height: 28px
+            text-indent: 40px  
+.english
+    padding: 20px 0 20px 0
+    &-title
+        margin-left: 87px
+        color: $title-color
+        font-size: 26px
+    p 
+        margin: 20px 47px 0 47px
+        text-align: left
+        font-size: 20px
+        line-height: 28px
+        text-indent: 40px  
+    
+    
+
