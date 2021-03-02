@@ -38,4 +38,4 @@ https://github.com/AntonAgaro/layout1
 ## Education
 Courses: Web-developer courses 2021 33.5 total hours by Udemy, certificate from 18 February 2021. 
 ## English level
-My English level is A2. 
+My English level is A2 
