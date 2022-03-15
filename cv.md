@@ -18,4 +18,45 @@ Besides, I very glad that profession developer gives me opportunity to use Engli
 
 My strengths are hard work, curiosity, perseverance.
 
-Nowadays i work frontend developer in digital-agency. I create websites and applications using HTML, CSS, JS, React.
+Nowadays i work frontend developer in Legalbet company. I create websites and applications using HTML, CSS, JS, Vue, React.
+
+## My skills
+
+HTML, CSS, SASS / SCSS, JavaScript, TypeScript, Vue, React, Redux, Gulp, Webpack, Git, Figma
+
+## My code example
+
+**Maximum subarray sum kata from Codewars:** Task consists in finding the maximum sum of a contiguous subsequence in an array of integers.
+
+**Solution:**
+
+```
+const maxSequence = arr => {
+  let maxSum = 0;
+  let particularSum = 0;
+
+  for (let item of arr) {
+    particularSum += item;
+    maxSum = Math.max(particularSum, maxSum);
+    if (particularSum < 0) particularSum = 0;
+   }
+
+  return maxSum;
+};
+```
+
+## Work experience
+
+In November 2021 i started work frontend developer in Legalbet company.
+Before i developed websites by layouts in Figma and SPA by React for my own practice.
+For example i developed currency converter, app for tasks managment with firebase back-end, app for manage issues on Github with GraphQL Githab API.
+
+My portfolio: https://antonagaro.github.io/portfolio/pages/portfolio.html
+
+## Education
+
+Courses: JavaScript, React, Web-developer courses 2021 by Udemy, certificate from 18 February 2021.
+
+## English level
+
+My English level is B1
